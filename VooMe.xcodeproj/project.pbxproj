@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		70121DF41BC173AC00430BDF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70121DF31BC173AC00430BDF /* AppDelegate.swift */; };
+		70121DF61BC173AC00430BDF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70121DF51BC173AC00430BDF /* ViewController.swift */; };
+		70121DF91BC173AC00430BDF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70121DF71BC173AC00430BDF /* Main.storyboard */; };
+		70121DFC1BC173AC00430BDF /* VooMe.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 70121DFA1BC173AC00430BDF /* VooMe.xcdatamodeld */; };
+		70121DFE1BC173AC00430BDF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70121DFD1BC173AC00430BDF /* Assets.xcassets */; };
+		70121E011BC173AC00430BDF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70121DFF1BC173AC00430BDF /* LaunchScreen.storyboard */; };
+		70121E0C1BC173AC00430BDF /* VooMeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70121E0B1BC173AC00430BDF /* VooMeTests.swift */; };
+		70121E171BC173AC00430BDF /* VooMeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70121E161BC173AC00430BDF /* VooMeUITests.swift */; };
+		70121E471BC17ADE00430BDF /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70121E441BC17ADE00430BDF /* FBSDKCoreKit.framework */; settings = {ASSET_TAGS = (); }; };
+		70121E481BC17ADE00430BDF /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70121E451BC17ADE00430BDF /* FBSDKLoginKit.framework */; settings = {ASSET_TAGS = (); }; };
+		70121E491BC17ADE00430BDF /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70121E461BC17ADE00430BDF /* FBSDKShareKit.framework */; settings = {ASSET_TAGS = (); }; };
+		70121E531BC17C9C00430BDF /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70121E521BC17C9C00430BDF /* AudioToolbox.framework */; };
+		70121E551BC17CAA00430BDF /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70121E541BC17CAA00430BDF /* CFNetwork.framework */; };
+		70121E571BC17CB400430BDF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70121E561BC17CB400430BDF /* CoreGraphics.framework */; };
+		70121E591BC17CC100430BDF /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70121E581BC17CC100430BDF /* CoreLocation.framework */; };
+		70121E5B1BC17CCF00430BDF /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70121E5A1BC17CCF00430BDF /* QuartzCore.framework */; };
+		70121E5D1BC17CD900430BDF /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70121E5C1BC17CD900430BDF /* Security.framework */; };
+		70121E5F1BC17CE300430BDF /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70121E5E1BC17CE300430BDF /* StoreKit.framework */; };
+		70121E611BC17CEF00430BDF /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70121E601BC17CEF00430BDF /* SystemConfiguration.framework */; };
+		70121E631BC17D2E00430BDF /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 70121E621BC17D2E00430BDF /* libsqlite3.tbd */; };
+		70121E651BC17D4400430BDF /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 70121E641BC17D4400430BDF /* libz.tbd */; };
+		70121E731BC354AB00430BDF /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70121E701BC354AB00430BDF /* Parse.framework */; settings = {ASSET_TAGS = (); }; };
+		70121E781BC35ABF00430BDF /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70121E771BC35ABF00430BDF /* Bolts.framework */; settings = {ASSET_TAGS = (); }; };
+		70121E7C1BC35CCA00430BDF /* ParseFacebookUtilsV4.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70121E7B1BC35CCA00430BDF /* ParseFacebookUtilsV4.framework */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		70121E081BC173AC00430BDF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 70121DE81BC173AC00430BDF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 70121DEF1BC173AC00430BDF;
+			remoteInfo = VooMe;
+		};
+		70121E131BC173AC00430BDF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 70121DE81BC173AC00430BDF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 70121DEF1BC173AC00430BDF;
+			remoteInfo = VooMe;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		70121DF01BC173AC00430BDF /* VooMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VooMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		70121DF31BC173AC00430BDF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		70121DF51BC173AC00430BDF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		70121DF81BC173AC00430BDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		70121DFB1BC173AC00430BDF /* VooMe.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = VooMe.xcdatamodel; sourceTree = "<group>"; };
+		70121DFD1BC173AC00430BDF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		70121E001BC173AC00430BDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		70121E021BC173AC00430BDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70121E071BC173AC00430BDF /* VooMeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VooMeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		70121E0B1BC173AC00430BDF /* VooMeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VooMeTests.swift; sourceTree = "<group>"; };
+		70121E0D1BC173AC00430BDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70121E121BC173AC00430BDF /* VooMeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VooMeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		70121E161BC173AC00430BDF /* VooMeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VooMeUITests.swift; sourceTree = "<group>"; };
+		70121E181BC173AC00430BDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70121E441BC17ADE00430BDF /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		70121E451BC17ADE00430BDF /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		70121E461BC17ADE00430BDF /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKShareKit.framework; sourceTree = "<group>"; };
+		70121E521BC17C9C00430BDF /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		70121E541BC17CAA00430BDF /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		70121E561BC17CB400430BDF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		70121E581BC17CC100430BDF /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		70121E5A1BC17CCF00430BDF /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		70121E5C1BC17CD900430BDF /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		70121E5E1BC17CE300430BDF /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		70121E601BC17CEF00430BDF /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		70121E621BC17D2E00430BDF /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		70121E641BC17D4400430BDF /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		70121E701BC354AB00430BDF /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		70121E771BC35ABF00430BDF /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		70121E7B1BC35CCA00430BDF /* ParseFacebookUtilsV4.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseFacebookUtilsV4.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		70121DED1BC173AC00430BDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70121E651BC17D4400430BDF /* libz.tbd in Frameworks */,
+				70121E631BC17D2E00430BDF /* libsqlite3.tbd in Frameworks */,
+				70121E611BC17CEF00430BDF /* SystemConfiguration.framework in Frameworks */,
+				70121E5F1BC17CE300430BDF /* StoreKit.framework in Frameworks */,
+				70121E731BC354AB00430BDF /* Parse.framework in Frameworks */,
+				70121E5D1BC17CD900430BDF /* Security.framework in Frameworks */,
+				70121E5B1BC17CCF00430BDF /* QuartzCore.framework in Frameworks */,
+				70121E591BC17CC100430BDF /* CoreLocation.framework in Frameworks */,
+				70121E571BC17CB400430BDF /* CoreGraphics.framework in Frameworks */,
+				70121E551BC17CAA00430BDF /* CFNetwork.framework in Frameworks */,
+				70121E7C1BC35CCA00430BDF /* ParseFacebookUtilsV4.framework in Frameworks */,
+				70121E531BC17C9C00430BDF /* AudioToolbox.framework in Frameworks */,
+				70121E481BC17ADE00430BDF /* FBSDKLoginKit.framework in Frameworks */,
+				70121E471BC17ADE00430BDF /* FBSDKCoreKit.framework in Frameworks */,
+				70121E491BC17ADE00430BDF /* FBSDKShareKit.framework in Frameworks */,
+				70121E781BC35ABF00430BDF /* Bolts.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70121E041BC173AC00430BDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70121E0F1BC173AC00430BDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		70121DE71BC173AC00430BDF = {
+			isa = PBXGroup;
+			children = (
+				70121E641BC17D4400430BDF /* libz.tbd */,
+				70121E621BC17D2E00430BDF /* libsqlite3.tbd */,
+				70121E601BC17CEF00430BDF /* SystemConfiguration.framework */,
+				70121E5E1BC17CE300430BDF /* StoreKit.framework */,
+				70121E5C1BC17CD900430BDF /* Security.framework */,
+				70121E5A1BC17CCF00430BDF /* QuartzCore.framework */,
+				70121E581BC17CC100430BDF /* CoreLocation.framework */,
+				70121E561BC17CB400430BDF /* CoreGraphics.framework */,
+				70121E541BC17CAA00430BDF /* CFNetwork.framework */,
+				70121E521BC17C9C00430BDF /* AudioToolbox.framework */,
+				70121DF21BC173AC00430BDF /* VooMe */,
+				70121E0A1BC173AC00430BDF /* VooMeTests */,
+				70121E151BC173AC00430BDF /* VooMeUITests */,
+				70121DF11BC173AC00430BDF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		70121DF11BC173AC00430BDF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				70121DF01BC173AC00430BDF /* VooMe.app */,
+				70121E071BC173AC00430BDF /* VooMeTests.xctest */,
+				70121E121BC173AC00430BDF /* VooMeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		70121DF21BC173AC00430BDF /* VooMe */ = {
+			isa = PBXGroup;
+			children = (
+				70121E7B1BC35CCA00430BDF /* ParseFacebookUtilsV4.framework */,
+				70121E771BC35ABF00430BDF /* Bolts.framework */,
+				70121E701BC354AB00430BDF /* Parse.framework */,
+				70121E441BC17ADE00430BDF /* FBSDKCoreKit.framework */,
+				70121E451BC17ADE00430BDF /* FBSDKLoginKit.framework */,
+				70121E461BC17ADE00430BDF /* FBSDKShareKit.framework */,
+				70121DF31BC173AC00430BDF /* AppDelegate.swift */,
+				70121DF51BC173AC00430BDF /* ViewController.swift */,
+				70121DF71BC173AC00430BDF /* Main.storyboard */,
+				70121DFD1BC173AC00430BDF /* Assets.xcassets */,
+				70121DFF1BC173AC00430BDF /* LaunchScreen.storyboard */,
+				70121E021BC173AC00430BDF /* Info.plist */,
+				70121DFA1BC173AC00430BDF /* VooMe.xcdatamodeld */,
+			);
+			path = VooMe;
+			sourceTree = "<group>";
+		};
+		70121E0A1BC173AC00430BDF /* VooMeTests */ = {
+			isa = PBXGroup;
+			children = (
+				70121E0B1BC173AC00430BDF /* VooMeTests.swift */,
+				70121E0D1BC173AC00430BDF /* Info.plist */,
+			);
+			path = VooMeTests;
+			sourceTree = "<group>";
+		};
+		70121E151BC173AC00430BDF /* VooMeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				70121E161BC173AC00430BDF /* VooMeUITests.swift */,
+				70121E181BC173AC00430BDF /* Info.plist */,
+			);
+			path = VooMeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		70121DEF1BC173AC00430BDF /* VooMe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70121E1B1BC173AC00430BDF /* Build configuration list for PBXNativeTarget "VooMe" */;
+			buildPhases = (
+				70121DEC1BC173AC00430BDF /* Sources */,
+				70121DED1BC173AC00430BDF /* Frameworks */,
+				70121DEE1BC173AC00430BDF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VooMe;
+			productName = VooMe;
+			productReference = 70121DF01BC173AC00430BDF /* VooMe.app */;
+			productType = "com.apple.product-type.application";
+		};
+		70121E061BC173AC00430BDF /* VooMeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70121E1E1BC173AC00430BDF /* Build configuration list for PBXNativeTarget "VooMeTests" */;
+			buildPhases = (
+				70121E031BC173AC00430BDF /* Sources */,
+				70121E041BC173AC00430BDF /* Frameworks */,
+				70121E051BC173AC00430BDF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				70121E091BC173AC00430BDF /* PBXTargetDependency */,
+			);
+			name = VooMeTests;
+			productName = VooMeTests;
+			productReference = 70121E071BC173AC00430BDF /* VooMeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		70121E111BC173AC00430BDF /* VooMeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70121E211BC173AC00430BDF /* Build configuration list for PBXNativeTarget "VooMeUITests" */;
+			buildPhases = (
+				70121E0E1BC173AC00430BDF /* Sources */,
+				70121E0F1BC173AC00430BDF /* Frameworks */,
+				70121E101BC173AC00430BDF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				70121E141BC173AC00430BDF /* PBXTargetDependency */,
+			);
+			name = VooMeUITests;
+			productName = VooMeUITests;
+			productReference = 70121E121BC173AC00430BDF /* VooMeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		70121DE81BC173AC00430BDF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = Voome;
+				TargetAttributes = {
+					70121DEF1BC173AC00430BDF = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					70121E061BC173AC00430BDF = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 70121DEF1BC173AC00430BDF;
+					};
+					70121E111BC173AC00430BDF = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 70121DEF1BC173AC00430BDF;
+					};
+				};
+			};
+			buildConfigurationList = 70121DEB1BC173AC00430BDF /* Build configuration list for PBXProject "VooMe" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 70121DE71BC173AC00430BDF;
+			productRefGroup = 70121DF11BC173AC00430BDF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				70121DEF1BC173AC00430BDF /* VooMe */,
+				70121E061BC173AC00430BDF /* VooMeTests */,
+				70121E111BC173AC00430BDF /* VooMeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		70121DEE1BC173AC00430BDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70121E011BC173AC00430BDF /* LaunchScreen.storyboard in Resources */,
+				70121DFE1BC173AC00430BDF /* Assets.xcassets in Resources */,
+				70121DF91BC173AC00430BDF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70121E051BC173AC00430BDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70121E101BC173AC00430BDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		70121DEC1BC173AC00430BDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70121DFC1BC173AC00430BDF /* VooMe.xcdatamodeld in Sources */,
+				70121DF61BC173AC00430BDF /* ViewController.swift in Sources */,
+				70121DF41BC173AC00430BDF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70121E031BC173AC00430BDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70121E0C1BC173AC00430BDF /* VooMeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70121E0E1BC173AC00430BDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70121E171BC173AC00430BDF /* VooMeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		70121E091BC173AC00430BDF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 70121DEF1BC173AC00430BDF /* VooMe */;
+			targetProxy = 70121E081BC173AC00430BDF /* PBXContainerItemProxy */;
+		};
+		70121E141BC173AC00430BDF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 70121DEF1BC173AC00430BDF /* VooMe */;
+			targetProxy = 70121E131BC173AC00430BDF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		70121DF71BC173AC00430BDF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				70121DF81BC173AC00430BDF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		70121DFF1BC173AC00430BDF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				70121E001BC173AC00430BDF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		70121E191BC173AC00430BDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		70121E1A1BC173AC00430BDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		70121E1C1BC173AC00430BDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/VooMe",
+				);
+				INFOPLIST_FILE = VooMe/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.voome.VooMe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		70121E1D1BC173AC00430BDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/VooMe",
+				);
+				INFOPLIST_FILE = VooMe/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.voome.VooMe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+			};
+			name = Release;
+		};
+		70121E1F1BC173AC00430BDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = VooMeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.voome.VooMeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VooMe.app/VooMe";
+			};
+			name = Debug;
+		};
+		70121E201BC173AC00430BDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = VooMeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.voome.VooMeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VooMe.app/VooMe";
+			};
+			name = Release;
+		};
+		70121E221BC173AC00430BDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = VooMeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.voome.VooMeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = VooMe;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		70121E231BC173AC00430BDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = VooMeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.voome.VooMeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = VooMe;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		70121DEB1BC173AC00430BDF /* Build configuration list for PBXProject "VooMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70121E191BC173AC00430BDF /* Debug */,
+				70121E1A1BC173AC00430BDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		70121E1B1BC173AC00430BDF /* Build configuration list for PBXNativeTarget "VooMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70121E1C1BC173AC00430BDF /* Debug */,
+				70121E1D1BC173AC00430BDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		70121E1E1BC173AC00430BDF /* Build configuration list for PBXNativeTarget "VooMeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70121E1F1BC173AC00430BDF /* Debug */,
+				70121E201BC173AC00430BDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		70121E211BC173AC00430BDF /* Build configuration list for PBXNativeTarget "VooMeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70121E221BC173AC00430BDF /* Debug */,
+				70121E231BC173AC00430BDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		70121DFA1BC173AC00430BDF /* VooMe.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				70121DFB1BC173AC00430BDF /* VooMe.xcdatamodel */,
+			);
+			currentVersion = 70121DFB1BC173AC00430BDF /* VooMe.xcdatamodel */;
+			path = VooMe.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 70121DE81BC173AC00430BDF /* Project object */;
+}
